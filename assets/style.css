@@ -1,12 +1,12 @@
 .profilePicture {
-   float: left;
-   margin-right: 20px;
+    float: left;
+    margin-right: 20px;
 }
 
 .profileParagraph {
     text-align: justify;
-
 }
+
 .navbar-brand {
     font-size: 50px;
     line-height: 60px;
@@ -21,7 +21,7 @@
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 body {
     background-color: rgb(121, 210, 245);
@@ -47,4 +47,18 @@ body {
 .Portfolio-Picture {
     width: 350px;
     height: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
