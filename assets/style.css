@@ -46,6 +46,10 @@ body {
     height: 350px;
 }
 
+.bg-light {
+    background-color: #436e98!important;
+}
+
 @media screen and (max-width: 768px) {
     body {
         margin-left: 10px;
